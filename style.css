@@ -1,12 +1,6 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-nav{
-  display: inline;
-  margin-left: 5px;
-  margin-right:5px;
-}
-
 body {
   background-color: #eae2b7;
   color: #003049;
@@ -16,8 +10,11 @@ body {
 
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {text-align: center;} 
-nav {text-align: center}
-h2 {text-align: center}
+nav {text-align: center;
+display: inline;
+  margin-left: 5px;
+  margin-right:5px;}
+h2 {text-align: center;}
 
 h3 {
   text-align: center;
@@ -35,10 +32,6 @@ article div {
 }
 
 ul {
-  text-align: center;
-}
-
-li {
   text-align: center;
 }
 
@@ -75,7 +68,7 @@ hr {
 /* Add your solution below */
 
 .image-circle {
-  text-align: center
+  text-align: center;
   border: 2px solid;
   border-radius: 50%;
   color: #003049;
