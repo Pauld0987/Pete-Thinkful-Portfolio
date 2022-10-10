@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 nav {text-align: center;
-text-indent: 50px;}
+text-indent: 100px;}
 
 body {
   background-color: #eae2b7;
@@ -26,6 +26,7 @@ article {
 }
 
 article div {
+  text-align: center;
   width: 100%;
 }
 
@@ -49,6 +50,7 @@ div {
 }
 
 img {
+  text-align: center;
   width: 100%;
   max-width: 200px;
   height: auto;
