@@ -1,6 +1,12 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+.nav{
+  display: inline;
+  margin-left: 5px;
+  margin-right:5px;
+}
+
 body {
   background-color: #eae2b7;
   color: #003049;
@@ -29,7 +35,7 @@ article div {
 }
 
 p {
-  line-height: 1.5;
+  line-height: normal;
 }
 
 a:link {
