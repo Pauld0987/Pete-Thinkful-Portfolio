@@ -1,7 +1,7 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-.nav{
+nav{
   display: inline;
   margin-left: 5px;
   margin-right:5px;
@@ -11,7 +11,6 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
   padding: 40px;
 }
 
@@ -33,6 +32,10 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+ul {
+  text-align: center;
 }
 
 li {
@@ -72,6 +75,7 @@ hr {
 /* Add your solution below */
 
 .image-circle {
+  text-align: center
   border: 2px solid;
   border-radius: 50%;
   color: #003049;
