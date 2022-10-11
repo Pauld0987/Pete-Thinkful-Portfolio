@@ -11,6 +11,11 @@ body {
   padding: 40px;
 }
 
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {text-align: center;} 
 h2 {text-align: center;}
