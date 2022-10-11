@@ -14,7 +14,11 @@ body {
 ul {
   list-style-position: inside;
   text-align: center;
-  display: inline-block;
+}
+
+ul li {
+  list-style-position: inside;
+  text-align: center;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
